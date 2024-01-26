@@ -45,7 +45,7 @@ Untracked files:
 no changes added to commit (use "git add" and/or "git commit -a")
 
 - Ajouter `fichier1.md` à l'index de Git (zone de _Staging_)
-git commit fichier1.md
+git commit fichier1.md 
 - Exécuter `git status` et copier/coller la sortie
 On branch master
 Changes to be committed:
