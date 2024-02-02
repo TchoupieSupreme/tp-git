@@ -204,15 +204,15 @@ _Cette partie est à faire sur le même dépôt que la partie précédente. C'es
 - Se déplacer sur la branche `master`
 git checkout master
   - Noter le changement dans l'onglet _Git Graph_
-
+On voit le changement de branche
 - On va maintenant intégrer la branche `fonctionnalite1`, qui est terminée, dans la branche d'intégration (ça s'appelle une _fusion_, ou un _merge_) : fusionner avec la branche `fonctionnalite1`
-
+git merge fonctionnalite1
 - Noter le changement dans l'onglet _Git Graph_. Que signifie la mention _Fast-forward_ indiquée par la sortie de la commande ?
-
+Les branches se rejoignent 
 - On veut maintenant fusionner `fonctionnalite2` dans la branche d'intégration (`master`). Effectuer cette fusion.
-
+git merge fonctionnalite2
 - Noter le changement dans l'onglet _Git Graph_. Que signifie la mention _Merge made by the ... strategy_ indiquée par la sortie de la commande ?
-
+C'est la stratégie de merge par défaut de git mais ne peux merge qu'une branche à 2 tête
 - Quelle est la différence fondamentale avec la fusion précédente ?
 
 - Créer une nouvelle branche `fonctionnalite3`, se déplacer dessus, et modifier le fichier `fichier1.md` en y ajoutant une ligne de texte. Committer : "Modification fichier1 pour fonctionnalité 3"
