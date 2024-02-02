@@ -87,3 +87,5 @@ Untracked files:
 - Pourquoi doit-on passer les fichiers par la zone de _Staging_ (l'index) avant de les committer ?
 
 - **_VALIDATION PROF02_**
+
+This is the default merge strategy when pulling or merging one branch. This strategy can only resolve two heads using a 3-way merge algorithm. When there is more than one common ancestor that can be used for 3-way merge, it creates a merged tree of the common ancestors and uses that as the reference tree for the 3-way merge. This has been reported to result in fewer merge conflicts without causing mismerges by tests done on actual merge commits taken from Linux 2.6 kernel development history. Additionally this strategy can detect and handle merges involving renames. It does not make use of detected copies.
