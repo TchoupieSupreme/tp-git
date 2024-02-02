@@ -214,7 +214,7 @@ git merge fonctionnalite2
 - Noter le changement dans l'onglet _Git Graph_. Que signifie la mention _Merge made by the ... strategy_ indiquée par la sortie de la commande ?
 C'est la stratégie de merge par défaut de git mais ne peux merge qu'une branche à 2 tête
 - Quelle est la différence fondamentale avec la fusion précédente ?
-
+elle peut merge 2 tête contraiment à fast forward
 - Créer une nouvelle branche `fonctionnalite3`, se déplacer dessus, et modifier le fichier `fichier1.md` en y ajoutant une ligne de texte. Committer : "Modification fichier1 pour fonctionnalité 3"
 git stage fonctionnalite3, git commit -m "message"
   - Comment utiliser _Git Graph_ pour qu'il nous montre les différences entre l'ancienne version de `fichier1.md` et la version courante que l'on vient de committer ?
