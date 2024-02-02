@@ -282,3 +282,4 @@ git stage fichier1.md git commit -m "conflit résoud"
   - Tâche terminée ? => fusion dans la branche d'intégration et suppression de la branche
 
 - Supprimer les trois branches `fonctionnalitex` (attention : on ne peut pas supprimer une branche sur laquelle on est)
+git branch -d fonctionnalitex
