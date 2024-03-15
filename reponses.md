@@ -332,10 +332,10 @@ On peut la supprimer
   - L'inclure dans l'index
   - Faire un _commit_
   - _Push_
-  - Que se passe-t-il ?
-  - Exécuter la bonne commande pour sauvegarder la branche sur le remote
+  - Que se passe-t-il ? The current branch partage has no upstream branch.
+  - Exécuter la bonne commande pour sauvegarder la branche sur le remote git push --set-upstream origin partage
   - Vérifier sur GitHub que la branche apparaît bien
-
+  
 - La branche `partage` n'a pas été fusionnée avant le *push* ; on va utiliser un autre moyen offert par GitHub pour fusionner une branche en *remote* : la **_Pull Request_**
 
   - La _Pull Request_ est très utilisée en collaboration : elle permet à l'intégrateur du projet d'examiner les demandes de _merge_ au niveau du _remote_ avant de les accepter (ou non)
@@ -360,10 +360,10 @@ On peut la supprimer
   - Repartir en local pour effectuer une modification sur `partage.md` et ajouter `precision.md`
   - _Commit_ des deux modifs
   - _Push_
-  - Observer la *pull request* : que s'est-il passé ?
-  - Finalement, faire le _merge_ sur la page de la _pull request_
+  - Observer la *pull request* : que s'est-il passé ? ça fonctionne
+  - Finalement, faire le _merge_ sur la page de la _pull request_ 
   - Noter que l'interface nous propose alors de supprimer la branche devenue inutile ; supprimer la branche
 
 - Dans un contexte de travail en collaboration sur un même dépôt, donner un _workflow_ (façon de travailler) possible qui va permettre à tous les intervenants de viser des ajouts à la branche d'intégration, d'en discuter, et ceci sans danger pour la branche d'intégration, avant que finalement l'intégrateur (probablement propriétaire du dépot) accepte les changements.
-
+travailler sur des branches différentes avant de demander à les merge à l'intégrateur
 - **_VALIDATION PROF07_**
